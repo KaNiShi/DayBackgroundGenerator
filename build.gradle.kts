@@ -16,10 +16,8 @@ repositories {
 kotlin {
     js {
         browser {
-            browser {
-                webpackTask {
-                    sourceMaps = false
-                }
+            webpackTask {
+                sourceMaps = false
             }
             binaries.executable()
         }
