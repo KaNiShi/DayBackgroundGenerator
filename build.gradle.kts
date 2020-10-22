@@ -26,6 +26,6 @@ kotlin {
     sourceSets["main"].dependencies {
         implementation(kotlin("stdlib-js", KotlinCompilerVersion.VERSION))
         implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core-js:1.3.9")
-        implementation(npm("html-webpack-plugin", "^2.29.0"))
+        implementation(npm("html-webpack-plugin", "^4.5.0"))
     }
 }
